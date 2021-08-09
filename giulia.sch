@@ -2204,37 +2204,37 @@ Wire Wire Line
 	6350 6850 6450 6850
 Wire Wire Line
 	5950 6950 6100 6950
-Text GLabel 2850 1350 2    50   Input ~ 0
+Text GLabel 3250 4600 2    50   Input ~ 0
 ROW0
-Text GLabel 2850 1450 2    50   Input ~ 0
+Text GLabel 3250 4700 2    50   Input ~ 0
 ROW1
-Text GLabel 2850 1550 2    50   Input ~ 0
+Text GLabel 3250 4800 2    50   Input ~ 0
 ROW2
-Text GLabel 2850 1650 2    50   Input ~ 0
+Text GLabel 3250 4900 2    50   Input ~ 0
 ROW3
-Text GLabel 3200 1350 2    50   Input ~ 0
+Text GLabel 3250 3700 2    50   Input ~ 0
 COL0
-Text GLabel 3200 1450 2    50   Input ~ 0
+Text GLabel 3250 3800 2    50   Input ~ 0
 COL1
-Text GLabel 3200 1550 2    50   Input ~ 0
+Text GLabel 3250 3900 2    50   Input ~ 0
 COL2
-Text GLabel 3200 1650 2    50   Input ~ 0
+Text GLabel 3250 4000 2    50   Input ~ 0
 COL3
-Text GLabel 3200 1750 2    50   Input ~ 0
+Text GLabel 3250 4100 2    50   Input ~ 0
 COL4
-Text GLabel 3200 1850 2    50   Input ~ 0
+Text GLabel 3250 4200 2    50   Input ~ 0
 COL5
-Text GLabel 3200 1950 2    50   Input ~ 0
+Text GLabel 3250 4300 2    50   Input ~ 0
 COL6
-Text GLabel 3200 2050 2    50   Input ~ 0
+Text GLabel 3250 4400 2    50   Input ~ 0
 COL7
-Text GLabel 3200 2150 2    50   Input ~ 0
+Text GLabel 3250 6000 2    50   Input ~ 0
 COL8
-Text GLabel 3200 2250 2    50   Input ~ 0
+Text GLabel 3250 5900 2    50   Input ~ 0
 COL9
-Text GLabel 3200 2350 2    50   Input ~ 0
+Text GLabel 3250 5800 2    50   Input ~ 0
 COL10
-Text GLabel 3200 2450 2    50   Input ~ 0
+Text GLabel 3250 5700 2    50   Input ~ 0
 COL11
 Text GLabel 2850 2150 2    50   Input ~ 0
 RGB
@@ -2242,4 +2242,45 @@ Text GLabel 3250 5500 2    50   Input ~ 0
 SCL
 Text GLabel 3250 5600 2    50   Input ~ 0
 SDA
+$Comp
+L kbd:OLED OL1
+U 1 1 615D634B
+P 2050 1100
+F 0 "OL1" H 2678 1169 51  0000 L CNN
+F 1 "OLED 128x32" H 2678 1079 47  0000 L CNN
+F 2 "" H 2050 1200 60  0001 C CNN
+F 3 "" H 2050 1200 60  0001 C CNN
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 1000 0    50   Input ~ 0
+SCL
+Text GLabel 1300 850  0    50   Input ~ 0
+SDA
+$Comp
+L power:+5V #PWR?
+U 1 1 615D9D0C
+P 950 1150
+F 0 "#PWR?" H 950 1000 50  0001 C CNN
+F 1 "+5V" H 965 1323 50  0000 C CNN
+F 2 "" H 950 1150 50  0001 C CNN
+F 3 "" H 950 1150 50  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1150 1300 1150
+$Comp
+L power:GND #PWR?
+U 1 1 615EB060
+P 950 1300
+F 0 "#PWR?" H 950 1050 50  0001 C CNN
+F 1 "GND" H 955 1127 50  0000 C CNN
+F 2 "" H 950 1300 50  0001 C CNN
+F 3 "" H 950 1300 50  0001 C CNN
+	1    950  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1300 1300 1300
 $EndSCHEMATC
