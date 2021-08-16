@@ -7,3 +7,6 @@
 [submodule "kbd"]
 	path = kbd
 	url = https://github.com/foostan/kbd
+[submodule "digikey-kicad-library"]
+	path = digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library
