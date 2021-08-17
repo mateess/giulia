@@ -8,6 +8,6 @@ Inspired by coseyfannitutti's through-hole kits, but with some changes:
 - Rearranged the through-hole "forehead"
 - Despite being 40%, uses a "big" ATMega 32A controller
 - RGB underglow
-- OLED to be admired by non-keeb people and possibly be useful for ~~stuff~~
+- OLED to be admired by non-keeb people and possibly be useful for _stuff_
 
 Progress will most likely be slow, don't hold your breath.
