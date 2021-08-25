@@ -2143,17 +2143,6 @@ Text GLabel 3250 5500 2    50   Input ~ 0
 SCL
 Text GLabel 3250 5600 2    50   Input ~ 0
 SDA
-$Comp
-L kbd:OLED OL1
-U 1 1 615D634B
-P 2550 1550
-F 0 "OL1" H 3178 1619 51  0000 L CNN
-F 1 "OLED 128x32" H 3178 1529 47  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2550 1650 60  0001 C CNN
-F 3 "" H 2550 1650 60  0001 C CNN
-	1    2550 1550
-	1    0    0    -1  
-$EndComp
 Text GLabel 1800 1450 0    50   Input ~ 0
 SCL
 Text GLabel 1800 1300 0    50   Input ~ 0
@@ -2292,4 +2281,15 @@ Text GLabel 3250 5000 2    50   Input ~ 0
 BOOT
 Text GLabel 4300 5850 0    50   Input ~ 0
 BOOT
+$Comp
+L giulia:OLED OL1
+U 1 1 612B1F40
+P 2550 1550
+F 0 "OL1" H 3178 1619 51  0000 L CNN
+F 1 "OLED" H 3178 1529 47  0000 L CNN
+F 2 "giulia:OLED" H 2550 1650 60  0001 C CNN
+F 3 "" H 2550 1650 60  0001 C CNN
+	1    2550 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
