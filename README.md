@@ -12,7 +12,7 @@ Inspired by coseyfannitutti's through-hole kits, but with some changes:
 
 Progress will most likely be slow, don't hold your breath.
 
-Credit/libraries used:
-[Digikey](https://github.com/Digi-Key/digikey-kicad-library) - Molex USB connector
-[foostan](https://github.com/foostan/kbd) - OLED
-[ai03](https://github.com/ai03-2725/MX_Alps_Hybrid) - MX/ALPS switch
+#### Credit/libraries used:
+[Digikey](https://github.com/Digi-Key/digikey-kicad-library) - Molex USB connector  
+[foostan](https://github.com/foostan/kbd) - OLED  
+[ai03](https://github.com/ai03-2725/MX_Alps_Hybrid) - MX/ALPS switch  
