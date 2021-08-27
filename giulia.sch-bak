@@ -2137,7 +2137,7 @@ Text GLabel 3250 3800 2    50   Input ~ 0
 COL10
 Text GLabel 3250 3700 2    50   Input ~ 0
 COL11
-Text GLabel 3250 7000 2    50   Input ~ 0
+Text GLabel 3250 6800 2    50   Input ~ 0
 RGB
 Text GLabel 3250 5500 2    50   Input ~ 0
 SCL
@@ -2200,26 +2200,6 @@ $EndComp
 Wire Wire Line
 	5200 5850 5050 5850
 $Comp
-L dk_USB-DVI-HDMI-Connectors:0548190519 J2
-U 1 1 61732FEC
-P 4650 6950
-F 0 "J2" H 4675 7602 60  0000 C CNN
-F 1 "0548190519" H 4675 7496 60  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_548190519" H 4850 7150 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" H 4850 7250 60  0001 L CNN
-F 4 "WM17115-ND" H 4850 7350 60  0001 L CNN "Digi-Key_PN"
-F 5 "0548190519" H 4850 7450 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 4850 7550 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 4850 7650 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" H 4850 7750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/0548190519/WM17115-ND/773802" H 4850 7850 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MINI B 5P R/A" H 4850 7950 60  0001 L CNN "Description"
-F 11 "Molex" H 4850 8050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4850 8150 60  0001 L CNN "Status"
-	1    4650 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR011
 U 1 1 611378A5
 P 6300 7100
@@ -2231,14 +2211,10 @@ F 3 "" H 6300 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 7150 6300 7150
-Wire Wire Line
 	6300 7100 6300 7150
 Connection ~ 6300 7150
 Wire Wire Line
 	6300 7150 6450 7150
-Wire Wire Line
-	6750 6750 5850 6750
 Connection ~ 5850 7050
 Wire Wire Line
 	5850 7050 4950 7050
@@ -2292,4 +2268,28 @@ F 3 "" H 2550 1650 60  0001 C CNN
 	1    2550 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L giulia:0548190519 J2
+U 1 1 616D264C
+P 4650 6950
+F 0 "J2" H 4675 7602 60  0000 C CNN
+F 1 "0548190519" H 4675 7496 60  0000 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_548190519" H 4850 7150 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" H 4850 7250 60  0001 L CNN
+F 4 "WM17115-ND" H 4850 7350 60  0001 L CNN "Digi-Key_PN"
+F 5 "0548190519" H 4850 7450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4850 7550 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 4850 7650 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" H 4850 7750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0548190519/WM17115-ND/773802" H 4850 7850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MINI B 5P R/A" H 4850 7950 60  0001 L CNN "Description"
+F 11 "Molex" H 4850 8050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4850 8150 60  0001 L CNN "Status"
+	1    4650 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 7150 6300 7150
+Wire Wire Line
+	5850 6750 6750 6750
 $EndSCHEMATC

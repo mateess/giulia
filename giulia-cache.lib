@@ -285,13 +285,13 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# dk_USB-DVI-HDMI-Connectors_0548190519
+# giulia_0548190519
 #
-DEF dk_USB-DVI-HDMI-Connectors_0548190519 J 0 40 Y Y 1 F N
+DEF giulia_0548190519 J 0 40 Y Y 1 F N
 F0 "J" -225 500 60 H V C CNN
-F1 "dk_USB-DVI-HDMI-Connectors_0548190519" -325 -225 60 V V C CNN
-F2 "digikey-footprints:USB_Mini_B_Female_548190519" 200 200 60 H I L CNN
-F3 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" 200 300 60 H I L CNN
+F1 "giulia_0548190519" -325 -225 60 V V C CNN
+F2 "giulia:USB_Mini_B_Female_548190519" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
 F4 "WM17115-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F5 "0548190519" 200 500 60 H I L CNN "MPN"
 F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
