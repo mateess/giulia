@@ -2137,7 +2137,7 @@ Text GLabel 3250 3800 2    50   Input ~ 0
 COL10
 Text GLabel 3250 3700 2    50   Input ~ 0
 COL11
-Text GLabel 3250 7000 2    50   Input ~ 0
+Text GLabel 3250 6800 2    50   Input ~ 0
 RGB
 Text GLabel 3250 5500 2    50   Input ~ 0
 SCL
