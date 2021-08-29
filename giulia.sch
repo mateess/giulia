@@ -2121,9 +2121,9 @@ Text GLabel 3250 5900 2    50   Input ~ 0
 COL2
 Text GLabel 3250 6000 2    50   Input ~ 0
 COL3
-Text GLabel 3250 4400 2    50   Input ~ 0
+Text GLabel 3250 6100 2    50   Input ~ 0
 COL4
-Text GLabel 3250 4300 2    50   Input ~ 0
+Text GLabel 3250 6200 2    50   Input ~ 0
 COL5
 Text GLabel 3250 4200 2    50   Input ~ 0
 COL6
