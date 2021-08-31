@@ -3,8 +3,8 @@
 
 ![render](Images/render.png)
 
-This will hopefully one day be a complete keyboard.
-Software side is USBaspLoader into QMK
+This will hopefully one day be a complete keyboard.  
+Software side is USBaspLoader into QMK  
 Inspired by coseyfannitutti's through-hole kits, but with some changes:
 - Unistagger layout (like UT47)
 - No sandwich, just PCB tray-mounted in a 3D printed lowpro case
