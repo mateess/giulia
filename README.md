@@ -1,16 +1,16 @@
 # Giulia
 ### 40% keyboard project
 
+![render](Images/render.png)
+
 This will hopefully one day be a complete keyboard.
+Software side is USBaspLoader into QMK
 Inspired by coseyfannitutti's through-hole kits, but with some changes:
 - Unistagger layout (like UT47)
 - No sandwich, just PCB tray-mounted in a 3D printed lowpro case
-- Rearranged the through-hole "forehead"
-- Despite being 40%, uses a "big" ATMega 32A controller
+- Despite being 40%, uses a "big" ATMega32A controller in DIP
 - RGB underglow
 - OLED to be admired by non-keeb people and possibly be useful for _stuff_
-
-Progress will most likely be slow, don't hold your breath.
 
 #### Credit/libraries used:
 [Digikey](https://github.com/Digi-Key/digikey-kicad-library) - Molex USB connector  
